@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which technique is commonly used in steganography to embed information into images?",
+      "answers": {
+        "a": "Changing the file format of the image.",
+        "b": "Modifying the most significant bits (MSBs) of image pixels.",
+        "c": "Replacing the least significant bits (LSBs) of image pixels.",
+        "d": "Applying a digital watermark to the image."
+      },
+      "explanations": {
+        "a": "Incorrect. Changing the file format does not involve embedding data within the image.",
+        "b": "Incorrect. Modifying MSBs may alter image appearance significantly and is less common in steganography.",
+        "c": "Correct. Replacing LSBs with hidden data is a common technique in image steganography.",
+        "d": "Incorrect. Digital watermarking is used for copyright protection, not for hiding data within images."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is a potential challenge in detecting steganographic content in images?",
+      "answers": {
+        "a": "Visual inspection by human observers.",
+        "b": "Analysis of the image's histogram.",
+        "c": "Statistical analysis of pixel values.",
+        "d": "Applying compression techniques to the image."
+      },
+      "explanations": {
+        "a": "Possible, but sophisticated steganographic methods can evade visual detection.",
+        "b": "Histogram analysis can reveal anomalies, but modern steganographic techniques can mitigate detection.",
+        "c": "Correct. Statistical analysis can detect subtle changes in pixel values caused by steganography.",
+        "d": "Compression affects image quality but may not directly reveal hidden data."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In digital steganography, what is a 'carrier'?",
+      "answers": {
+        "a": "The method used to encrypt the hidden data.",
+        "b": "The algorithm for compressing the steganographic message.",
+        "c": "The digital media that conceals the hidden information.",
+        "d": "A cryptographic key used for decrypting the hidden data."
+      },
+      "explanations": {
+        "a": "Incorrect. Encryption methods are applied to secure data, not to hide it within carriers.",
+        "b": "Incorrect. Compression algorithms reduce file size and are not directly related to steganography.",
+        "c": "Correct. A carrier is the digital media (e.g., image, audio) that conceals hidden information in steganography.",
+        "d": "Incorrect. Cryptographic keys are used in encryption and decryption processes, not in steganography."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

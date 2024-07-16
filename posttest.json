@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following is an example of covert communication that may use steganography?",
+      "answers": {
+        "a": "Sending an encrypted email with a secure key exchange.",
+        "b": "Hiding a message within the pixels of an image.",
+        "c": "Using a VPN to secure internet browsing.",
+        "d": "Signing a document with a digital certificate."
+      },
+      "explanations": {
+        "a": "Incorrect. While encryption secures data, steganography hides data within other data.",
+        "b": "Correct. Steganography conceals messages within seemingly innocuous carriers like images.",
+        "c": "Incorrect. VPNs encrypt and secure network connections, but they do not hide messages within data.",
+        "d": "Incorrect. Digital certificates validate the authenticity of documents but do not involve hiding messages."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is a potential disadvantage of LSB (Least Significant Bit) steganography?",
+      "answers": {
+        "a": "High susceptibility to detection through statistical analysis.",
+        "b": "Inability to embed large amounts of data.",
+        "c": "Requires complex algorithms for embedding and extraction.",
+        "d": "Limited compatibility with different file formats."
+      },
+      "explanations": {
+        "a": "Correct. LSB steganography can be susceptible to detection due to changes in LSBs affecting image statistics.",
+        "b": "Incorrect. LSB techniques can embed small amounts of data effectively within images.",
+        "c": "Incorrect. LSB methods are relatively straightforward compared to other steganographic techniques.",
+        "d": "Incorrect. LSB steganography is generally compatible with various file formats."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which technique involves embedding data by subtly altering the color or brightness of image pixels?",
+      "answers": {
+        "a": "LSB Substitution",
+        "b": "Transform Coding",
+        "c": "Phase Coding",
+        "d": "Spread Spectrum"
+      },
+      "explanations": {
+        "a": "Incorrect. LSB Substitution modifies the least significant bits of pixels, not their color or brightness.",
+        "b": "Incorrect. Transform Coding uses mathematical transformations like DCT, not pixel color alterations.",
+        "c": "Incorrect. Phase Coding alters phase information, not pixel color or brightness.",
+        "d": "Correct. Spread Spectrum embeds data by subtly altering pixel attributes like color or brightness."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    }
+  ]
+}
